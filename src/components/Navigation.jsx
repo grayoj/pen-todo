@@ -11,11 +11,11 @@ const Navigation = () => {
         <>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand><Link to='/'>Gerald</Link></Navbar.Brand>
+                    <Navbar.Brand ><Link style={{ textDecoration: 'none' }} to='/'>Gerald</Link></Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link><Link to='/home'>Home</Link></Nav.Link>
-                        <Nav.Link><Link to='/hooks'>Hooks</Link></Nav.Link>
-                        <Nav.Link><Link to='/creator'>Creator</Link></Nav.Link>
+                        <Nav.Link><Link to='/home' style={{ textDecoration: 'none' }}>Home</Link></Nav.Link>
+                        <Nav.Link><Link to='/hooks' style={{ textDecoration: 'none' }}>Hooks</Link></Nav.Link>
+                        <Nav.Link><Link to='/creator' style={{ textDecoration: 'none' }}>Creator</Link></Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
