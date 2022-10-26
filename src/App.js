@@ -66,6 +66,10 @@ const App = () => {
    is a built in react-object that is used to store or contain data/info
    about our component
    */
+  /*
+  constants declared to implement useState must have a [] bracket
+  objects are created using curly brackets
+  */
   const [todos, setTodos] = React.useState([
     {
       text: "This is a sampe todo",
