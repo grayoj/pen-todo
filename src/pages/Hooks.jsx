@@ -1,6 +1,9 @@
 import React from 'react';
-import UseStateExample from '../hooks/UseStateExample';
+// import UseEffectExample from '../hooks/UseEffectExample';
+// import UseStateExample from '../hooks/UseStateExample';
+import UseReducerExample from '../hooks/UseReducerExample';
 
+// Hooks
 const Hooks = () => {
     return (
         /*
@@ -12,9 +15,12 @@ const Hooks = () => {
         
         */
         <div>
-            <UseStateExample />
+            {/* <UseStateExample /> */}
+            {/* <UseEffectExample /> */}
+            <UseReducerExample />
         </div>
     )
 }
+
 
 export default Hooks;
